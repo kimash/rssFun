@@ -23,4 +23,5 @@ class ofApp : public ofBaseApp{
 		
     ofXml rssXml;
     vector<string> titles;
+    ofTrueTypeFont chFont;
 };

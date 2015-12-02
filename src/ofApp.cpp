@@ -4,6 +4,8 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
     ofBackground(0);
+    chFont.load("CooperHewitt-Medium.ttf", 30);
+    
     ofHttpResponse rssFeed = ofSaveURLTo("http://www.npr.org/rss/rss.php?id=1057", "rssFeed.xml");
     rssXml.loadFromBuffer(ofBufferFromFile("rssFeed.xml"));
     rssXml.setTo("channel");
@@ -31,7 +33,8 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-
+    ofSetColor(255, 255, 0);
+    chFont.drawString(titles[0], mouseX, ofGetHeight()/2);
 }
 
 //--------------------------------------------------------------
