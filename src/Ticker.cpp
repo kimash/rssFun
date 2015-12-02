@@ -8,11 +8,15 @@
 
 #include "Ticker.h"
 
-void Ticker::setup(ofVec2f pos_)
+void Ticker::setup(ofVec2f pos_, const vector<string> &textItems_)
 {
     pos = pos_;
     dt = 1./60.;
     chFont.load("CooperHewitt-Medium.ttf", 30);
+    textItems = &textItems_;
+    
+    //setText(textItems[0]);
+    setColor(ofColor(ofRandom(255), ofRandom(255), ofRandom(255)));
 }
 
 void Ticker::setText(string text_)
