@@ -9,7 +9,6 @@ void ofApp::setup(){
     ofHttpResponse rssFeed = ofSaveURLTo("http://www.npr.org/rss/rss.php?id=1057", "rssFeed.xml");
     rssXml.loadFromBuffer(ofBufferFromFile("rssFeed.xml"));
     rssXml.setTo("channel");
-    //cout << rssXml.getValue() << endl;
     
     int i = 0;
     string tagPath = "item[" + ofToString(i) + "]/title";
@@ -33,8 +32,12 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    ofSetColor(255, 255, 0);
-    chFont.drawString(titles[0], mouseX, ofGetHeight()/2);
+    for (int i = 0; i < titles.size(); i++) {
+        ofSetColor(ofRandom(255), ofRandom(255), ofRandom(255));
+        float x = ofGetWidth() - (ofGetFrameNum() % ofGetWidth());
+        chFont.drawString(titles[i], x, (i * 40) + 40);
+    }
+    
 }
 
 //--------------------------------------------------------------
