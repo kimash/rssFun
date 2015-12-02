@@ -6,20 +6,21 @@ void ofApp::setup(){
     ofBackground(0);
     ofHttpResponse rssFeed = ofSaveURLTo("http://www.npr.org/rss/rss.php?id=1057", "rssFeed.xml");
     rssXml.loadFromBuffer(ofBufferFromFile("rssFeed.xml"));
-    rssXml.setTo("channel/item[0]/title");
-    cout << rssXml.getValue() << endl;
+    rssXml.setTo("channel");
+    //cout << rssXml.getValue() << endl;
     
     int i = 0;
-    while (rssXml.exists("channel/item[" + ofToString(i) + "]/title")) {
-        string currValue = rssXml.getValue();
-        cout << currValue << endl;
+    string tagPath = "item[" + ofToString(i) + "]/title";
+
+    while (rssXml.exists(tagPath)) {
+        string currValue = rssXml.getValue(tagPath);
         
         //collect only titles in vector
         titles.push_back(currValue);
         cout << "added title: " << currValue << endl;
         
-        rssXml.setToSibling(); //get next item in tree
         i++;
+        tagPath = "item[" + ofToString(i) + "]/title";
     }
 }
 
