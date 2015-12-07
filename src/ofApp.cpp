@@ -4,7 +4,6 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
     ofBackground(0);
-    chFont.load("CooperHewitt-Medium.ttf", 30);
     
     ofHttpResponse rssFeed = ofSaveURLTo("http://www.npr.org/rss/rss.php?id=1057", "rssFeed.xml");
     rssXml.loadFromBuffer(ofBufferFromFile("rssFeed.xml"));
@@ -23,21 +22,19 @@ void ofApp::setup(){
         i++;
         tagPath = "item[" + ofToString(i) + "]/title";
     }
+    
+    ticker.setup(ofVec2f(ofGetWidth(), ofRandom(30, ofGetHeight())), titles);
+    ticker.startAnim();
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-
+    ticker.update();
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    for (int i = 0; i < titles.size(); i++) {
-        ofSetColor(ofRandom(255), ofRandom(255), ofRandom(255));
-        float x = ofGetWidth() - (ofGetFrameNum() % ofGetWidth());
-        chFont.drawString(titles[i], x, (i * 40) + 40);
-    }
-    
+    ticker.draw();
 }
 
 //--------------------------------------------------------------

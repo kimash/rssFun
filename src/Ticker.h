@@ -15,14 +15,16 @@
 
 class Ticker {
 public:
-    void setup(ofVec2f pos_, const vector<string> &textItems_);
+    void setup(ofVec2f pos_, const vector<string> &textEntries_);
     void setText(string text_);
     void setColor(ofColor color_);
     void update();
     void draw();
     
-    //animation functions
     void startAnim();
+    
+    //animation callback
+    void onAnimFinished(ofxAnimatable::AnimationEvent& animEvent);
     
     //animations
     ofxAnimatableFloat moveAnim;
@@ -35,7 +37,8 @@ protected:
     ofColor color;
     ofTrueTypeFont chFont;
     
-    const vector<string> *textItems;
+    const vector<string> *textEntries;
+    int entryIndex;
 };
 
 #endif /* defined(__rssFun__Ticker__) */

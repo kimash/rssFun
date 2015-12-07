@@ -8,15 +8,18 @@
 
 #include "Ticker.h"
 
-void Ticker::setup(ofVec2f pos_, const vector<string> &textItems_)
+void Ticker::setup(ofVec2f pos_, const vector<string> &textEntries_)
 {
     pos = pos_;
     dt = 1./60.;
     chFont.load("CooperHewitt-Medium.ttf", 30);
-    textItems = &textItems_;
+    textEntries = &textEntries_;
+    entryIndex = 0;
     
-    //setText(textItems[0]);
+    setText(textEntries->at(entryIndex));
     setColor(ofColor(ofRandom(255), ofRandom(255), ofRandom(255)));
+    
+    ofAddListener(fadeAnim.animFinished, this, &Ticker::onAnimFinished);
 }
 
 void Ticker::setText(string text_)
@@ -45,11 +48,23 @@ void Ticker::startAnim()
 {
     moveAnim.reset(1.0);
     moveAnim.setCurve(LINEAR);
-    moveAnim.setDuration(2.0);
+    moveAnim.setDuration(5.0);
     moveAnim.animateTo(0);
     
     fadeAnim.reset(1.0);
     fadeAnim.setCurve(TANH);
-    fadeAnim.setDuration(2.0);
+    fadeAnim.setDuration(5.0);
     fadeAnim.animateTo(0);
+}
+
+void Ticker::onAnimFinished(ofxAnimatable::AnimationEvent &animEvent)
+{
+    entryIndex++;
+    if (entryIndex > textEntries->size() - 1) {
+        entryIndex = 0;
+    }
+    
+    setColor(ofColor(ofRandom(255), ofRandom(255), ofRandom(255)));
+    setText(textEntries->at(entryIndex));
+    startAnim();
 }

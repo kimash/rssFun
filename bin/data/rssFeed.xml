@@ -7,12 +7,30 @@
     <language>en</language>
     <copyright>Copyright 2015 NPR - For Personal Use Only</copyright>
     <generator>NPR API RSS Generator 0.94</generator>
-    <lastBuildDate>Sat, 28 Nov 2015 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 06 Dec 2015 07:52:00 -0500</lastBuildDate>
     <image>
       <url>http://media.npr.org/images/podcasts/primary/npr_generic_image_300.jpg?s=200</url>
       <title>Opinion</title>
       <link>http://www.npr.org/templates/story/story.php?storyId=1057</link>
     </image>
+    <item>
+      <title>Impressions Brought Back From My First Africa Trip With The Pope</title>
+      <description>The papal trip to Africa was a first for Francis, but the Argentine-born pontiff felt very much at home. NPR's Sylvia Poggioli reflects on her experiences, and the Pope's, during the historic visit.</description>
+      <pubDate>Sun, 06 Dec 2015 07:52:00 -0500</pubDate>
+      <link>http://www.npr.org/2015/12/06/458661993/impressions-brought-back-from-my-first-africa-trip-with-the-pope?utm_medium=RSS&amp;utm_campaign=opinion</link>
+      <guid>http://www.npr.org/2015/12/06/458661993/impressions-brought-back-from-my-first-africa-trip-with-the-pope?utm_medium=RSS&amp;utm_campaign=opinion</guid>
+      <content:encoded><![CDATA[<p>The papal trip to Africa was a first for Francis, but the Argentine-born pontiff felt very much at home. NPR's Sylvia Poggioli reflects on her experiences, and the Pope's, during the historic visit.</p>]]></content:encoded>
+      <dc:creator>Sylvia Poggioli</dc:creator>
+    </item>
+    <item>
+      <title>Remembering The Forgotten Of The Sports World</title>
+      <description>Sports gets bigger all the time. But even in the biggest bull markets, there are always a few stocks that fail. The same is true in sports history. Whatever happened to the Little Brown Jug? Bowling?</description>
+      <pubDate>Wed, 02 Dec 2015 05:01:15 -0500</pubDate>
+      <link>http://www.npr.org/2015/12/02/458048020/remembering-the-forgotten-of-the-sports-world?utm_medium=RSS&amp;utm_campaign=opinion</link>
+      <guid>http://www.npr.org/2015/12/02/458048020/remembering-the-forgotten-of-the-sports-world?utm_medium=RSS&amp;utm_campaign=opinion</guid>
+      <content:encoded><![CDATA[<p>Sports gets bigger all the time. But even in the biggest bull markets, there are always a few stocks that fail. The same is true in sports history. Whatever happened to the Little Brown Jug? Bowling?</p>]]></content:encoded>
+      <dc:creator>Frank Deford</dc:creator>
+    </item>
     <item>
       <title>Newborn Baby Abandoned In Church's Manger Already Being Loved</title>
       <description>This week, the love of a mother who felt she couldn't care for her child led her to bring him some place safe and warm. And he was found by people who will—who already do—love him.</description>
@@ -129,24 +147,6 @@
       <guid>http://www.npr.org/2015/11/04/454291854/bill-belichick-love-him-hate-him-but-dont-deny-hes-an-original?utm_medium=RSS&amp;utm_campaign=opinion</guid>
       <content:encoded><![CDATA[<p>The time has come to recognize that Bill Belichick is the best pro-sports coach of this century, says commentator Frank Deford.</p>]]></content:encoded>
       <dc:creator>Frank Deford</dc:creator>
-    </item>
-    <item>
-      <title>A Missing Report On Exxon Mobil And Climate Change</title>
-      <description>Listeners question why NPR ignored a story widely reported elsewhere.</description>
-      <pubDate>Mon, 02 Nov 2015 16:25:00 -0500</pubDate>
-      <link>http://www.npr.org/sections/ombudsman/2015/11/02/452917035/a-missing-report-on-exxon-mobil-and-climate-change?utm_medium=RSS&amp;utm_campaign=opinion</link>
-      <guid>http://www.npr.org/sections/ombudsman/2015/11/02/452917035/a-missing-report-on-exxon-mobil-and-climate-change?utm_medium=RSS&amp;utm_campaign=opinion</guid>
-      <content:encoded><![CDATA[<p>Listeners question why NPR ignored a story widely reported elsewhere.</p>]]></content:encoded>
-      <dc:creator>Elizabeth Jensen</dc:creator>
-    </item>
-    <item>
-      <title>Plagiarism Found In 10 NPR Music Stories</title>
-      <description>The author of the 10 stories, who was based at New York's WQXR, has resigned.</description>
-      <pubDate>Thu, 29 Oct 2015 15:11:41 -0400</pubDate>
-      <link>http://www.npr.org/sections/ombudsman/2015/10/29/452858625/plagiarism-found-in-10-npr-music-stories?utm_medium=RSS&amp;utm_campaign=opinion</link>
-      <guid>http://www.npr.org/sections/ombudsman/2015/10/29/452858625/plagiarism-found-in-10-npr-music-stories?utm_medium=RSS&amp;utm_campaign=opinion</guid>
-      <content:encoded><![CDATA[<p>The author of the 10 stories, who was based at New York's WQXR, has resigned.</p>]]></content:encoded>
-      <dc:creator>Elizabeth Jensen</dc:creator>
     </item>
   </channel>
 </rss>

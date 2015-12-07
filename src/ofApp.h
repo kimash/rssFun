@@ -1,6 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
+#include "Ticker.h"
 
 class ofApp : public ofBaseApp{
 
@@ -23,5 +24,6 @@ class ofApp : public ofBaseApp{
 		
     ofXml rssXml;
     vector<string> titles;
-    ofTrueTypeFont chFont;
+    
+    Ticker ticker;
 };
