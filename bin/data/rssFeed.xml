@@ -1,152 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:npr="http://www.npr.org/rss/" xmlns:nprml="http://api.npr.org/nprml" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
-    <title>Opinion : NPR</title>
-    <link>http://www.npr.org/templates/story/story.php?storyId=1057</link>
-    <description>Editorial opinions and commentary on news events and world events. Download podcasts and subscribe to RSS feeds.</description>
+    <title>Technology : NPR</title>
+    <link>http://www.npr.org/templates/story/story.php?storyId=1019</link>
+    <description>Latest technology news and breakthroughs in technology, science, and industry. Download the NPR Technology podcast and Technology RSS feed.</description>
     <language>en</language>
     <copyright>Copyright 2015 NPR - For Personal Use Only</copyright>
     <generator>NPR API RSS Generator 0.94</generator>
-    <lastBuildDate>Sun, 06 Dec 2015 07:52:00 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 07 Dec 2015 17:18:00 -0500</lastBuildDate>
     <image>
       <url>http://media.npr.org/images/podcasts/primary/npr_generic_image_300.jpg?s=200</url>
-      <title>Opinion</title>
-      <link>http://www.npr.org/templates/story/story.php?storyId=1057</link>
+      <title>Technology</title>
+      <link>http://www.npr.org/templates/story/story.php?storyId=1019</link>
     </image>
     <item>
-      <title>Impressions Brought Back From My First Africa Trip With The Pope</title>
-      <description>The papal trip to Africa was a first for Francis, but the Argentine-born pontiff felt very much at home. NPR's Sylvia Poggioli reflects on her experiences, and the Pope's, during the historic visit.</description>
+      <title>At School And At Home, How Much Does The Internet Know About Kids?</title>
+      <description>Look both ways when you cross the street and don't tell toys your name and address — privacy concerns are some of the latest worries for parents in the digital age.</description>
+      <pubDate>Mon, 07 Dec 2015 17:18:00 -0500</pubDate>
+      <link>http://www.npr.org/sections/alltechconsidered/2015/12/07/458817907/at-school-and-at-home-how-much-does-the-internet-know-about-kids?utm_medium=RSS&amp;utm_campaign=technology</link>
+      <guid>http://www.npr.org/sections/alltechconsidered/2015/12/07/458817907/at-school-and-at-home-how-much-does-the-internet-know-about-kids?utm_medium=RSS&amp;utm_campaign=technology</guid>
+      <content:encoded><![CDATA[<p>Look both ways when you cross the street and don't tell toys your name and address — privacy concerns are some of the latest worries for parents in the digital age.</p>]]></content:encoded>
+      <dc:creator>NPR Staff</dc:creator>
+    </item>
+    <item>
+      <title>You Can Give A Robot A Paintbrush, But Does It Create Art?  </title>
+      <description>Pindar Van Arman is a painter — and a software designer. His latest project? A portrait-painting robot. Its paintings "dance on the edge" between creations by humans and machines, he says.</description>
+      <pubDate>Sun, 06 Dec 2015 09:09:21 -0500</pubDate>
+      <link>http://www.npr.org/sections/alltechconsidered/2015/12/06/458347976/you-can-give-a-robot-a-paintbrush-but-does-it-create-art?utm_medium=RSS&amp;utm_campaign=technology</link>
+      <guid>http://www.npr.org/sections/alltechconsidered/2015/12/06/458347976/you-can-give-a-robot-a-paintbrush-but-does-it-create-art?utm_medium=RSS&amp;utm_campaign=technology</guid>
+      <content:encoded><![CDATA[<p>Pindar Van Arman is a painter — and a software designer. His latest project? A portrait-painting robot. Its paintings "dance on the edge" between creations by humans and machines, he says.</p>]]></content:encoded>
+      <dc:creator>Allie Caren</dc:creator>
+    </item>
+    <item>
+      <title>An App That Helps You Scat Sing A La Ella Fitzgerald</title>
+      <description>Wanna be the next Ella Fitzgerald or Cab Calloway? As they say, there's an app for that. NPR's Rachel Martin tries out "ScatAbility" with vocal improv educator Michele Weir.</description>
       <pubDate>Sun, 06 Dec 2015 07:52:00 -0500</pubDate>
-      <link>http://www.npr.org/2015/12/06/458661993/impressions-brought-back-from-my-first-africa-trip-with-the-pope?utm_medium=RSS&amp;utm_campaign=opinion</link>
-      <guid>http://www.npr.org/2015/12/06/458661993/impressions-brought-back-from-my-first-africa-trip-with-the-pope?utm_medium=RSS&amp;utm_campaign=opinion</guid>
-      <content:encoded><![CDATA[<p>The papal trip to Africa was a first for Francis, but the Argentine-born pontiff felt very much at home. NPR's Sylvia Poggioli reflects on her experiences, and the Pope's, during the historic visit.</p>]]></content:encoded>
-      <dc:creator>Sylvia Poggioli</dc:creator>
+      <link>http://www.npr.org/2015/12/06/458661979/an-app-that-helps-you-scat-sing-a-la-ella-fitzgerald?utm_medium=RSS&amp;utm_campaign=technology</link>
+      <guid>http://www.npr.org/2015/12/06/458661979/an-app-that-helps-you-scat-sing-a-la-ella-fitzgerald?utm_medium=RSS&amp;utm_campaign=technology</guid>
+      <content:encoded><![CDATA[<p>Wanna be the next Ella Fitzgerald or Cab Calloway? As they say, there's an app for that. NPR's Rachel Martin tries out "ScatAbility" with vocal improv educator Michele Weir.</p>]]></content:encoded>
     </item>
     <item>
-      <title>Remembering The Forgotten Of The Sports World</title>
-      <description>Sports gets bigger all the time. But even in the biggest bull markets, there are always a few stocks that fail. The same is true in sports history. Whatever happened to the Little Brown Jug? Bowling?</description>
-      <pubDate>Wed, 02 Dec 2015 05:01:15 -0500</pubDate>
-      <link>http://www.npr.org/2015/12/02/458048020/remembering-the-forgotten-of-the-sports-world?utm_medium=RSS&amp;utm_campaign=opinion</link>
-      <guid>http://www.npr.org/2015/12/02/458048020/remembering-the-forgotten-of-the-sports-world?utm_medium=RSS&amp;utm_campaign=opinion</guid>
-      <content:encoded><![CDATA[<p>Sports gets bigger all the time. But even in the biggest bull markets, there are always a few stocks that fail. The same is true in sports history. Whatever happened to the Little Brown Jug? Bowling?</p>]]></content:encoded>
-      <dc:creator>Frank Deford</dc:creator>
+      <title>Mark Zuckerberg Is Betting Tech Can Address Educational Equity. Is It That Simple?</title>
+      <description>The Facebook CEO and his wife will deploy billions to improve schools using technology. Critics warn of the dangers of freestanding solutions.</description>
+      <pubDate>Sat, 05 Dec 2015 06:43:00 -0500</pubDate>
+      <link>http://www.npr.org/sections/ed/2015/12/05/437536957/mark-zuckerberg-is-betting-tech-can-address-educational-equity-is-it-that-simple?utm_medium=RSS&amp;utm_campaign=technology</link>
+      <guid>http://www.npr.org/sections/ed/2015/12/05/437536957/mark-zuckerberg-is-betting-tech-can-address-educational-equity-is-it-that-simple?utm_medium=RSS&amp;utm_campaign=technology</guid>
+      <content:encoded><![CDATA[<p>The Facebook CEO and his wife will deploy billions to improve schools using technology. Critics warn of the dangers of freestanding solutions.</p>]]></content:encoded>
+      <dc:creator>Anya Kamenetz</dc:creator>
     </item>
     <item>
-      <title>Newborn Baby Abandoned In Church's Manger Already Being Loved</title>
-      <description>This week, the love of a mother who felt she couldn't care for her child led her to bring him some place safe and warm. And he was found by people who will—who already do—love him.</description>
-      <pubDate>Sat, 28 Nov 2015 08:00:00 -0500</pubDate>
-      <link>http://www.npr.org/2015/11/28/457626375/newborn-baby-abandoned-in-churchs-manger-already-being-loved?utm_medium=RSS&amp;utm_campaign=opinion</link>
-      <guid>http://www.npr.org/2015/11/28/457626375/newborn-baby-abandoned-in-churchs-manger-already-being-loved?utm_medium=RSS&amp;utm_campaign=opinion</guid>
-      <content:encoded><![CDATA[<p>This week, the love of a mother who felt she couldn't care for her child led her to bring him some place safe and warm. And he was found by people who will—who already do—love him.</p>]]></content:encoded>
-      <dc:creator>Scott Simon</dc:creator>
+      <title>#NPRreads: Jihadist Culture, Turkish Delight And A Christian Abortion Provider</title>
+      <description>Also this week: How classic video games are teaching computers to learn.</description>
+      <pubDate>Fri, 04 Dec 2015 16:50:00 -0500</pubDate>
+      <link>http://www.npr.org/sections/thetwo-way/2015/12/04/458478654/-nprreads-jihadist-culture-turkish-delight-and-a-christian-abortion-provider?utm_medium=RSS&amp;utm_campaign=technology</link>
+      <guid>http://www.npr.org/sections/thetwo-way/2015/12/04/458478654/-nprreads-jihadist-culture-turkish-delight-and-a-christian-abortion-provider?utm_medium=RSS&amp;utm_campaign=technology</guid>
+      <content:encoded><![CDATA[<p>Also this week: How classic video games are teaching computers to learn.</p>]]></content:encoded>
+      <dc:creator>Annie Johnson</dc:creator>
     </item>
     <item>
-      <title>Dear Pope Francis, As You Visit Uganda, Here's What You Should Know </title>
-      <description>The pope arrives in the country on Friday. Commentators James Kassaga Arinaitwe and Viviane Rutabingwa give him a crash course in the country's issues.</description>
-      <pubDate>Fri, 27 Nov 2015 07:03:00 -0500</pubDate>
-      <link>http://www.npr.org/sections/goatsandsoda/2015/11/27/457286258/dear-pope-francis-as-you-visit-uganda-heres-what-you-should-know?utm_medium=RSS&amp;utm_campaign=opinion</link>
-      <guid>http://www.npr.org/sections/goatsandsoda/2015/11/27/457286258/dear-pope-francis-as-you-visit-uganda-heres-what-you-should-know?utm_medium=RSS&amp;utm_campaign=opinion</guid>
-      <content:encoded><![CDATA[<p>The pope arrives in the country on Friday. Commentators James Kassaga Arinaitwe and Viviane Rutabingwa give him a crash course in the country's issues.</p>]]></content:encoded>
-      <dc:creator>James Kassaga Arinaitwe</dc:creator>
+      <title>5 Things To Know: Net Neutrality Is Back In Court</title>
+      <description>Once again, a federal court will decide whether the FCC can keep its Open Internet rules. This time, the challenge centers on the FCC's overhaul of how it regulates Internet providers.</description>
+      <pubDate>Fri, 04 Dec 2015 09:24:00 -0500</pubDate>
+      <link>http://www.npr.org/sections/thetwo-way/2015/12/04/458444673/5-things-to-know-net-neutrality-is-back-in-court?utm_medium=RSS&amp;utm_campaign=technology</link>
+      <guid>http://www.npr.org/sections/thetwo-way/2015/12/04/458444673/5-things-to-know-net-neutrality-is-back-in-court?utm_medium=RSS&amp;utm_campaign=technology</guid>
+      <content:encoded><![CDATA[<p>Once again, a federal court will decide whether the FCC can keep its Open Internet rules. This time, the challenge centers on the FCC's overhaul of how it regulates Internet providers.</p>]]></content:encoded>
+      <dc:creator>Alina Selyukh</dc:creator>
     </item>
     <item>
-      <title>There Are No Winners Without Losers</title>
-      <description>Somebody has to lose, right? So, let's learn from defeat.</description>
-      <pubDate>Wed, 25 Nov 2015 04:33:00 -0500</pubDate>
-      <link>http://www.npr.org/2015/11/25/457228637/there-are-no-winners-without-losers?utm_medium=RSS&amp;utm_campaign=opinion</link>
-      <guid>http://www.npr.org/2015/11/25/457228637/there-are-no-winners-without-losers?utm_medium=RSS&amp;utm_campaign=opinion</guid>
-      <content:encoded><![CDATA[<p>Somebody has to lose, right? So, let's learn from defeat.</p>]]></content:encoded>
-      <dc:creator>Frank Deford</dc:creator>
+      <title>Yahoo's Board Debates Selling Company's Core Business</title>
+      <description>Yahoo's board is meeting amid reports that the company may sell off its struggling Internet business or a huge stake in the Chinese e-commerce company Alibaba. Yahoo is the No. 3 search engine.</description>
+      <pubDate>Fri, 04 Dec 2015 04:59:00 -0500</pubDate>
+      <link>http://www.npr.org/2015/12/04/458427103/yahoos-board-debates-selling-companys-core-business?utm_medium=RSS&amp;utm_campaign=technology</link>
+      <guid>http://www.npr.org/2015/12/04/458427103/yahoos-board-debates-selling-companys-core-business?utm_medium=RSS&amp;utm_campaign=technology</guid>
+      <content:encoded><![CDATA[<p>Yahoo's board is meeting amid reports that the company may sell off its struggling Internet business or a huge stake in the Chinese e-commerce company Alibaba. Yahoo is the No. 3 search engine.</p>]]></content:encoded>
+      <dc:creator>Aarti Shahani</dc:creator>
     </item>
     <item>
-      <title>Green Bean Casserole: The Thanksgiving Staple We Love — Or Loathe</title>
-      <description>The classic Midwestern casserole, which turns 60 this year, has come to mean more than just a mashup of processed food. Even those who grew up with it but can't abide it admit: It tastes like home.</description>
-      <pubDate>Tue, 24 Nov 2015 15:25:00 -0500</pubDate>
-      <link>http://www.npr.org/sections/thesalt/2015/11/24/456237098/green-bean-casserole-the-thanksgiving-staple-we-love-or-loathe?utm_medium=RSS&amp;utm_campaign=opinion</link>
-      <guid>http://www.npr.org/sections/thesalt/2015/11/24/456237098/green-bean-casserole-the-thanksgiving-staple-we-love-or-loathe?utm_medium=RSS&amp;utm_campaign=opinion</guid>
-      <content:encoded><![CDATA[<p>The classic Midwestern casserole, which turns 60 this year, has come to mean more than just a mashup of processed food. Even those who grew up with it but can't abide it admit: It tastes like home.</p>]]></content:encoded>
-      <dc:creator>Peggy Lowe</dc:creator>
+      <title>FCC Attorneys Will Be Back In Court To Defend Net Neutrality</title>
+      <description>The Obama administration's plan to regulate Internet access like a public utility faces a big hurdle on Friday. Major phone and cable companies are challenging the FCC's Open Internet rules in court.</description>
+      <pubDate>Fri, 04 Dec 2015 04:59:00 -0500</pubDate>
+      <link>http://www.npr.org/2015/12/04/458427026/fcc-attorneys-will-be-back-in-court-to-defend-net-neutrality?utm_medium=RSS&amp;utm_campaign=technology</link>
+      <guid>http://www.npr.org/2015/12/04/458427026/fcc-attorneys-will-be-back-in-court-to-defend-net-neutrality?utm_medium=RSS&amp;utm_campaign=technology</guid>
+      <content:encoded><![CDATA[<p>The Obama administration's plan to regulate Internet access like a public utility faces a big hurdle on Friday. Major phone and cable companies are challenging the FCC's Open Internet rules in court.</p>]]></content:encoded>
+      <dc:creator>Joel Rose</dc:creator>
     </item>
     <item>
-      <title>Going Live (Or Not): NPR's Complicated Approach To Breaking News</title>
-      <description>When news breaks, how NPR responds depends on more than just good news judgment.</description>
-      <pubDate>Tue, 24 Nov 2015 10:34:00 -0500</pubDate>
-      <link>http://www.npr.org/sections/ombudsman/2015/11/24/457134068/going-live-or-not-nprs-complicated-approach-to-breaking-news?utm_medium=RSS&amp;utm_campaign=opinion</link>
-      <guid>http://www.npr.org/sections/ombudsman/2015/11/24/457134068/going-live-or-not-nprs-complicated-approach-to-breaking-news?utm_medium=RSS&amp;utm_campaign=opinion</guid>
-      <content:encoded><![CDATA[<p>When news breaks, how NPR responds depends on more than just good news judgment.</p>]]></content:encoded>
-      <dc:creator>Elizabeth Jensen</dc:creator>
+      <title>This Peanut Farmer Turns To A Cellphone — And Prayer — For A Top Crop</title>
+      <description>Mariama Keita of Senegal farms the old-school way: hoes, pitchforks, no tractor. But lately she's relying on a not-so-traditional tool.</description>
+      <pubDate>Thu, 03 Dec 2015 16:02:05 -0500</pubDate>
+      <link>http://www.npr.org/sections/goatsandsoda/2015/12/03/456194983/this-peanut-farmer-turns-to-a-cellphone-and-prayer-for-a-top-crop?utm_medium=RSS&amp;utm_campaign=technology</link>
+      <guid>http://www.npr.org/sections/goatsandsoda/2015/12/03/456194983/this-peanut-farmer-turns-to-a-cellphone-and-prayer-for-a-top-crop?utm_medium=RSS&amp;utm_campaign=technology</guid>
+      <content:encoded><![CDATA[<p>Mariama Keita of Senegal farms the old-school way: hoes, pitchforks, no tractor. But lately she's relying on a not-so-traditional tool.</p>]]></content:encoded>
+      <dc:creator>Ofeibea Quist-Arcton</dc:creator>
     </item>
     <item>
-      <title>The Long Saga Of Spy Jonathan Pollard Continues Even After His Release</title>
-      <description>He's on parole for another five years, during which he'll have to wear a GPS ankle bracelet, won't be able to give interviews, or leave for Israel. NPR's Scott Simon reflects on his release.</description>
-      <pubDate>Sat, 21 Nov 2015 09:03:00 -0500</pubDate>
-      <link>http://www.npr.org/2015/11/21/456903792/the-long-saga-of-spy-jonathan-pollard-continues-even-after-his-release?utm_medium=RSS&amp;utm_campaign=opinion</link>
-      <guid>http://www.npr.org/2015/11/21/456903792/the-long-saga-of-spy-jonathan-pollard-continues-even-after-his-release?utm_medium=RSS&amp;utm_campaign=opinion</guid>
-      <content:encoded><![CDATA[<p>He's on parole for another five years, during which he'll have to wear a GPS ankle bracelet, won't be able to give interviews, or leave for Israel. NPR's Scott Simon reflects on his release.</p>]]></content:encoded>
-      <dc:creator>Scott Simon</dc:creator>
+      <title>The Daredevils Without Landlines — And Why Health Experts Are Tracking Them</title>
+      <description>It's not surprising the Centers for Disease Control and Prevention sees more and more landlines disappear. But who knew wireless-only households were into risky behavior? A CDC researcher explains.</description>
+      <pubDate>Thu, 03 Dec 2015 14:30:00 -0500</pubDate>
+      <link>http://www.npr.org/sections/alltechconsidered/2015/12/03/458225197/the-daredevils-without-landlines-and-why-health-experts-are-tracking-them?utm_medium=RSS&amp;utm_campaign=technology</link>
+      <guid>http://www.npr.org/sections/alltechconsidered/2015/12/03/458225197/the-daredevils-without-landlines-and-why-health-experts-are-tracking-them?utm_medium=RSS&amp;utm_campaign=technology</guid>
+      <content:encoded><![CDATA[<p>It's not surprising the Centers for Disease Control and Prevention sees more and more landlines disappear. But who knew wireless-only households were into risky behavior? A CDC researcher explains.</p>]]></content:encoded>
+      <dc:creator>Alina Selyukh</dc:creator>
     </item>
     <item>
-      <title>Islamic State, ISIS, ISIL or Daesh? </title>
-      <description>Listeners weigh in on what we should call the terrorist group responsible for the Paris attacks.</description>
-      <pubDate>Wed, 18 Nov 2015 14:33:00 -0500</pubDate>
-      <link>http://www.npr.org/sections/ombudsman/2015/11/18/456507131/islamic-state-isis-isil-or-daesh?utm_medium=RSS&amp;utm_campaign=opinion</link>
-      <guid>http://www.npr.org/sections/ombudsman/2015/11/18/456507131/islamic-state-isis-isil-or-daesh?utm_medium=RSS&amp;utm_campaign=opinion</guid>
-      <content:encoded><![CDATA[<p>Listeners weigh in on what we should call the terrorist group responsible for the Paris attacks.</p>]]></content:encoded>
-      <dc:creator>Elizabeth Jensen</dc:creator>
+      <title>As Tech Firms Come To Oakland, So Do Hopes Of Racial Diversity</title>
+      <description>Oakland, Calif., is known for being diverse. The tech industry? Not so much. But there's hope the situation will improve as more tech companies move to Oakland.</description>
+      <pubDate>Thu, 03 Dec 2015 05:46:00 -0500</pubDate>
+      <link>http://www.npr.org/sections/alltechconsidered/2015/12/03/458008179/as-tech-firms-come-to-oakland-so-do-hopes-of-racial-diversity?utm_medium=RSS&amp;utm_campaign=technology</link>
+      <guid>http://www.npr.org/sections/alltechconsidered/2015/12/03/458008179/as-tech-firms-come-to-oakland-so-do-hopes-of-racial-diversity?utm_medium=RSS&amp;utm_campaign=technology</guid>
+      <content:encoded><![CDATA[<p>Oakland, Calif., is known for being diverse. The tech industry? Not so much. But there's hope the situation will improve as more tech companies move to Oakland.</p>]]></content:encoded>
+      <dc:creator>Pendarvis Harshaw</dc:creator>
     </item>
     <item>
-      <title>Commentary: Mizzou Football And The Power Of The Players</title>
-      <description>Frank Deford wonders: Once the games are over, are the football players really accepted, or are they just hired hands?</description>
-      <pubDate>Wed, 18 Nov 2015 05:31:00 -0500</pubDate>
-      <link>http://www.npr.org/2015/11/18/456360331/commentary-mizzou-football-and-the-power-of-the-players?utm_medium=RSS&amp;utm_campaign=opinion</link>
-      <guid>http://www.npr.org/2015/11/18/456360331/commentary-mizzou-football-and-the-power-of-the-players?utm_medium=RSS&amp;utm_campaign=opinion</guid>
-      <content:encoded><![CDATA[<p>Frank Deford wonders: Once the games are over, are the football players really accepted, or are they just hired hands?</p>]]></content:encoded>
-      <dc:creator>Frank Deford</dc:creator>
+      <title>An LLC? It Gives Facebook Founder More Freedom To Meet Philanthropic Goals</title>
+      <description>Creating a for-profit company to manage his $45 billion pledge means Mark Zuckerberg is giving himself flexibility in deciding the best way of tackling the social issues he cares about.</description>
+      <pubDate>Thu, 03 Dec 2015 05:40:00 -0500</pubDate>
+      <link>http://www.npr.org/2015/12/03/458276386/facebook-founder-to-give-away-his-fortune-through-for-profit-company?utm_medium=RSS&amp;utm_campaign=technology</link>
+      <guid>http://www.npr.org/2015/12/03/458276386/facebook-founder-to-give-away-his-fortune-through-for-profit-company?utm_medium=RSS&amp;utm_campaign=technology</guid>
+      <content:encoded><![CDATA[<p>Creating a for-profit company to manage his $45 billion pledge means Mark Zuckerberg is giving himself flexibility in deciding the best way of tackling the social issues he cares about.</p>]]></content:encoded>
+      <dc:creator>Chris Arnold</dc:creator>
     </item>
     <item>
-      <title>Gray-Haired Granny? An 85-Year-Old Writer Goes Punk Rock Instead</title>
-      <description>When novelist Anne Bernays became a great-grandmother, she dyed her hair bright blue. She says young people tend to treat the elderly as if they're dumb, "whereas I feel like I'm still a teenager."</description>
-      <pubDate>Wed, 18 Nov 2015 05:08:00 -0500</pubDate>
-      <link>http://www.npr.org/2015/11/18/456349585/gray-haired-granny-an-85-year-old-writer-goes-punk-rock-instead?utm_medium=RSS&amp;utm_campaign=opinion</link>
-      <guid>http://www.npr.org/2015/11/18/456349585/gray-haired-granny-an-85-year-old-writer-goes-punk-rock-instead?utm_medium=RSS&amp;utm_campaign=opinion</guid>
-      <content:encoded><![CDATA[<p>When novelist Anne Bernays became a great-grandmother, she dyed her hair bright blue. She says young people tend to treat the elderly as if they're dumb, "whereas I feel like I'm still a teenager."</p>]]></content:encoded>
-      <dc:creator>Anne Bernays</dc:creator>
+      <title>Facebook Founder's Philanthropic Aspirations Highlighted In Announcement</title>
+      <description>NPR's Robert Siegel talks with Dale Russakoff, author of the book, &lt;em&gt;The Prize&lt;/em&gt;, about what lessons Zuckerberg learned from his $100 million donation to fix Newark, N.J., schools.</description>
+      <pubDate>Wed, 02 Dec 2015 17:22:00 -0500</pubDate>
+      <link>http://www.npr.org/2015/12/02/458206440/facebook-founders-philanthropic-aspirations-highlighted-in-announcement?utm_medium=RSS&amp;utm_campaign=technology</link>
+      <guid>http://www.npr.org/2015/12/02/458206440/facebook-founders-philanthropic-aspirations-highlighted-in-announcement?utm_medium=RSS&amp;utm_campaign=technology</guid>
+      <content:encoded><![CDATA[<p>NPR's Robert Siegel talks with Dale Russakoff, author of the book, <em>The Prize</em>, about what lessons Zuckerberg learned from his $100 million donation to fix Newark, N.J., schools.</p>]]></content:encoded>
     </item>
     <item>
-      <title>'Heds' Will Roll: Readers React To Headlines Gone Wrong</title>
-      <description>As some listeners raise concerns, a new digital strategy already in the works will give headlines a little more TLC.</description>
-      <pubDate>Wed, 11 Nov 2015 15:26:00 -0500</pubDate>
-      <link>http://www.npr.org/sections/ombudsman/2015/11/11/455056471/heds-will-roll-readers-react-to-headlines-gone-wrong?utm_medium=RSS&amp;utm_campaign=opinion</link>
-      <guid>http://www.npr.org/sections/ombudsman/2015/11/11/455056471/heds-will-roll-readers-react-to-headlines-gone-wrong?utm_medium=RSS&amp;utm_campaign=opinion</guid>
-      <content:encoded><![CDATA[<p>As some listeners raise concerns, a new digital strategy already in the works will give headlines a little more TLC.</p>]]></content:encoded>
-      <dc:creator>Elizabeth Jensen</dc:creator>
+      <title>Too Much TV And Chill Could Reduce Brain Power Over Time</title>
+      <description>Young adults who watch at least three hours of TV a day might end up with less cognitive function by middle age, a study finds. That's especially true if they're sedentary couch potatoes.</description>
+      <pubDate>Wed, 02 Dec 2015 14:31:00 -0500</pubDate>
+      <link>http://www.npr.org/sections/health-shots/2015/12/02/458071139/too-much-tv-and-chill-could-reduce-brain-power-over-time?utm_medium=RSS&amp;utm_campaign=technology</link>
+      <guid>http://www.npr.org/sections/health-shots/2015/12/02/458071139/too-much-tv-and-chill-could-reduce-brain-power-over-time?utm_medium=RSS&amp;utm_campaign=technology</guid>
+      <content:encoded><![CDATA[<p>Young adults who watch at least three hours of TV a day might end up with less cognitive function by middle age, a study finds. That's especially true if they're sedentary couch potatoes.</p>]]></content:encoded>
+      <dc:creator>Angus Chen</dc:creator>
     </item>
     <item>
-      <title>The NFL Is Kicking The Ball To The United Kingdom. Why?</title>
-      <description>London soon will be hosting up to eight NFL games each fall. What's behind these plans to play so many regular season games across the pond?</description>
-      <pubDate>Wed, 11 Nov 2015 04:38:00 -0500</pubDate>
-      <link>http://www.npr.org/2015/11/11/455469656/the-nfl-is-kicking-the-ball-to-the-united-kingdom-why?utm_medium=RSS&amp;utm_campaign=opinion</link>
-      <guid>http://www.npr.org/2015/11/11/455469656/the-nfl-is-kicking-the-ball-to-the-united-kingdom-why?utm_medium=RSS&amp;utm_campaign=opinion</guid>
-      <content:encoded><![CDATA[<p>London soon will be hosting up to eight NFL games each fall. What's behind these plans to play so many regular season games across the pond?</p>]]></content:encoded>
-      <dc:creator>Frank Deford</dc:creator>
-    </item>
-    <item>
-      <title>Analysis: At The University Of Missouri, An Unlearned Free Speech Lesson</title>
-      <description>When student protesters confronted journalists, some faculty members seemed to forget about the First Amendment, NPR's David Folkenflik says.</description>
-      <pubDate>Tue, 10 Nov 2015 19:28:00 -0500</pubDate>
-      <link>http://www.npr.org/2015/11/10/455532242/analysis-at-the-university-of-missouri-an-unlearned-free-speech-lesson?utm_medium=RSS&amp;utm_campaign=opinion</link>
-      <guid>http://www.npr.org/2015/11/10/455532242/analysis-at-the-university-of-missouri-an-unlearned-free-speech-lesson?utm_medium=RSS&amp;utm_campaign=opinion</guid>
-      <content:encoded><![CDATA[<p>When student protesters confronted journalists, some faculty members seemed to forget about the First Amendment, NPR's David Folkenflik says.</p>]]></content:encoded>
-      <dc:creator>David Folkenflik</dc:creator>
-    </item>
-    <item>
-      <title>Bill Belichick: Love Him, Hate Him, But Don't Deny He's An Original</title>
-      <description>The time has come to recognize that Bill Belichick is the best pro-sports coach of this century, says commentator Frank Deford.</description>
-      <pubDate>Wed, 04 Nov 2015 04:18:00 -0500</pubDate>
-      <link>http://www.npr.org/2015/11/04/454291854/bill-belichick-love-him-hate-him-but-dont-deny-hes-an-original?utm_medium=RSS&amp;utm_campaign=opinion</link>
-      <guid>http://www.npr.org/2015/11/04/454291854/bill-belichick-love-him-hate-him-but-dont-deny-hes-an-original?utm_medium=RSS&amp;utm_campaign=opinion</guid>
-      <content:encoded><![CDATA[<p>The time has come to recognize that Bill Belichick is the best pro-sports coach of this century, says commentator Frank Deford.</p>]]></content:encoded>
-      <dc:creator>Frank Deford</dc:creator>
+      <title>A Click Too Far: Why Using Social Media Isn't That Great For Fundraising</title>
+      <description>Empathy campaigns can spread like wildfire on Facebook and other social media. So how come data show that social networking sites direct very few clicks to charity donation pages?</description>
+      <pubDate>Wed, 02 Dec 2015 13:41:00 -0500</pubDate>
+      <link>http://www.npr.org/sections/alltechconsidered/2015/12/02/458008461/a-click-too-far-why-social-media-isnt-that-great-for-fundraising?utm_medium=RSS&amp;utm_campaign=technology</link>
+      <guid>http://www.npr.org/sections/alltechconsidered/2015/12/02/458008461/a-click-too-far-why-social-media-isnt-that-great-for-fundraising?utm_medium=RSS&amp;utm_campaign=technology</guid>
+      <content:encoded><![CDATA[<p>Empathy campaigns can spread like wildfire on Facebook and other social media. So how come data show that social networking sites direct very few clicks to charity donation pages?</p>]]></content:encoded>
+      <dc:creator>Alina Selyukh</dc:creator>
     </item>
   </channel>
 </rss>

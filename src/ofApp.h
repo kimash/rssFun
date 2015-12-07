@@ -26,4 +26,5 @@ class ofApp : public ofBaseApp{
     vector<string> titles;
     
     Ticker ticker;
+    float fontSize;
 };

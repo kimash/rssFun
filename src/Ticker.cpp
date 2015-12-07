@@ -8,11 +8,12 @@
 
 #include "Ticker.h"
 
-void Ticker::setup(ofVec2f pos_, const vector<string> &textEntries_)
+void Ticker::setup(ofVec2f pos_, float fontSize_, const vector<string> &textEntries_)
 {
     pos = pos_;
     dt = 1./60.;
-    chFont.load("CooperHewitt-Medium.ttf", 30);
+    fontSize = fontSize_;
+    chFont.load("CooperHewitt-Medium.ttf", fontSize);
     textEntries = &textEntries_;
     entryIndex = 0;
     
@@ -30,6 +31,11 @@ void Ticker::setText(string text_)
 void Ticker::setColor(ofColor color_)
 {
     color = color_;
+}
+
+void Ticker::setPos(ofVec2f pos_)
+{
+    pos = pos_;
 }
 
 void Ticker::update()
@@ -53,8 +59,8 @@ void Ticker::startAnim()
     
     fadeAnim.reset(1.0);
     fadeAnim.setCurve(TANH);
-    fadeAnim.setDuration(5.0);
-    fadeAnim.animateTo(0);
+    fadeAnim.setDuration(3.0);
+    fadeAnim.animateToAfterDelay(0, 2.0);
 }
 
 void Ticker::onAnimFinished(ofxAnimatable::AnimationEvent &animEvent)
@@ -65,6 +71,7 @@ void Ticker::onAnimFinished(ofxAnimatable::AnimationEvent &animEvent)
     }
     
     setColor(ofColor(ofRandom(255), ofRandom(255), ofRandom(255)));
+    setPos(ofVec2f(pos.x, ofRandom(fontSize + 10, ofGetHeight())));
     setText(textEntries->at(entryIndex));
     startAnim();
 }

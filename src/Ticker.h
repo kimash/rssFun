@@ -15,15 +15,16 @@
 
 class Ticker {
 public:
-    void setup(ofVec2f pos_, const vector<string> &textEntries_);
+    void setup(ofVec2f pos_, float fontSize_, const vector<string> &textEntries_);
     void setText(string text_);
     void setColor(ofColor color_);
+    void setPos(ofVec2f pos_);
     void update();
     void draw();
     
     void startAnim();
     
-    //animation callback
+    //animation callback - prompt for changing ticker entry
     void onAnimFinished(ofxAnimatable::AnimationEvent& animEvent);
     
     //animations
@@ -33,6 +34,7 @@ public:
 protected:
     string text;
     float dt;
+    float fontSize;
     ofVec2f pos;
     ofColor color;
     ofTrueTypeFont chFont;

@@ -3,9 +3,9 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-    ofBackground(0);
+    ofBackground(38);
     
-    ofHttpResponse rssFeed = ofSaveURLTo("http://www.npr.org/rss/rss.php?id=1057", "rssFeed.xml");
+    ofHttpResponse rssFeed = ofSaveURLTo("http://www.npr.org/rss/rss.php?id=1019", "rssFeed.xml");
     rssXml.loadFromBuffer(ofBufferFromFile("rssFeed.xml"));
     rssXml.setTo("channel");
     
@@ -23,7 +23,8 @@ void ofApp::setup(){
         tagPath = "item[" + ofToString(i) + "]/title";
     }
     
-    ticker.setup(ofVec2f(ofGetWidth(), ofRandom(30, ofGetHeight())), titles);
+    fontSize = 30;
+    ticker.setup(ofVec2f(ofGetWidth(), ofRandom(fontSize + 10, ofGetHeight())), fontSize, titles);
     ticker.startAnim();
 }
 
