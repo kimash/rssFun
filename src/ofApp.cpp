@@ -3,7 +3,7 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-    ofBackground(38);
+    ofBackground(36);
     
     ofHttpResponse rssFeed = ofSaveURLTo("http://www.npr.org/rss/rss.php?id=1019", "rssFeed.xml");
     rssXml.loadFromBuffer(ofBufferFromFile("rssFeed.xml"));

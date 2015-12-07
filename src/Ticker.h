@@ -38,6 +38,7 @@ protected:
     ofVec2f pos;
     ofColor color;
     ofTrueTypeFont chFont;
+    ofRectangle tickerBounds;
     
     const vector<string> *textEntries;
     int entryIndex;

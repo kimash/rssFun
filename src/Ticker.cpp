@@ -18,7 +18,7 @@ void Ticker::setup(ofVec2f pos_, float fontSize_, const vector<string> &textEntr
     entryIndex = 0;
     
     setText(textEntries->at(entryIndex));
-    setColor(ofColor(ofRandom(255), ofRandom(255), ofRandom(255)));
+    setColor(ofColor(255, ofRandom(50), ofRandom(50)));
     
     ofAddListener(fadeAnim.animFinished, this, &Ticker::onAnimFinished);
 }
@@ -47,7 +47,12 @@ void Ticker::update()
 void Ticker::draw()
 {
     ofSetColor(color.r, color.g, color.b, 255*fadeAnim.val());
-    chFont.drawString(text, pos.x * moveAnim.val(), pos.y);
+    tickerBounds = chFont.getStringBoundingBox(text, 0, 0);
+    tickerBounds.height += 20;
+    tickerBounds.width += 20;
+    ofDrawRectangle(pos.x * moveAnim.val(), pos.y, tickerBounds.width, tickerBounds.height);
+    ofSetColor(255, 255, 255, 255*fadeAnim.val());
+    chFont.drawString(text, pos.x * moveAnim.val() + 10, pos.y + tickerBounds.height - 15);
 }
 
 void Ticker::startAnim()
@@ -70,8 +75,8 @@ void Ticker::onAnimFinished(ofxAnimatable::AnimationEvent &animEvent)
         entryIndex = 0;
     }
     
-    setColor(ofColor(ofRandom(255), ofRandom(255), ofRandom(255)));
-    setPos(ofVec2f(pos.x, ofRandom(fontSize + 10, ofGetHeight())));
+    setColor(ofColor(255, ofRandom(100), ofRandom(100)));
+    setPos(ofVec2f(pos.x, ofRandom(tickerBounds.height, ofGetHeight()-tickerBounds.height)));
     setText(textEntries->at(entryIndex));
     startAnim();
 }
